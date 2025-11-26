@@ -8,9 +8,9 @@ export default function Home() {
         <meta name="description" content="Полезные инструменты для игры" />
       </Head>
 
-      <div className="flex h-screen overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth">
+      <div className="flex h-dvh overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth">
         {/* Главная секция с навигацией */}
-        <section className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-gray-900 to-blue-900 text-white border-r border-blue-700">
+        <section className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-gray-900 to-blue-900 text-white border-r border-blue-700">
           <div className="text-center max-w-2xl">
             <h1 className="text-5xl font-bold mb-6">Игровые инструменты</h1>
             <p className="text-xl mb-8 text-blue-200">Добро пожаловать! Выберите нужный инструмент:</p>
@@ -47,7 +47,7 @@ export default function Home() {
         {/* Калькулятор ресурсов */}
         <section
           id="calculator"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-blue-900 to-purple-900 text-white border-r border-purple-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-blue-900 to-purple-900 text-white border-r border-purple-700"
         >
           <div className="text-center max-w-2xl w-full">
             <h2 className="text-4xl font-bold mb-8">Калькулятор ресурсов</h2>
@@ -86,7 +86,7 @@ export default function Home() {
         {/* Карта книг */}
         <section
           id="books"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-purple-900 to-pink-900 text-white border-r border-pink-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-purple-900 to-pink-900 text-white border-r border-pink-700"
         >
           <div className="text-center w-full max-w-4xl">
             <h2 className="text-4xl font-bold mb-8">Потерянные книги</h2>
@@ -130,7 +130,7 @@ export default function Home() {
         {/* Интерактивные карты */}
         <section
           id="maps"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-pink-900 to-red-900 text-white"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-8 bg-gradient-to-br from-pink-900 to-red-900 text-white"
         >
           <div className="text-center w-full max-w-6xl">
             <h2 className="text-4xl font-bold mb-8">Интерактивные карты</h2>

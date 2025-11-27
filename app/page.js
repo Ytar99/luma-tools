@@ -13,13 +13,13 @@ export default function Home() {
       </Head>
 
       <div
-        className="horizontal-container flex h-screen overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth scrollbar-hide"
+        className="horizontal-container flex h-dvh overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth scrollbar-hide"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {/* Главная секция с навигацией */}
         <section
           id="start"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-gray-900 to-blue-900 text-white border-r border-blue-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-gray-900 to-blue-900 text-white border-r border-blue-700"
         >
           <div className="text-center max-w-2xl w-full px-4">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -67,7 +67,7 @@ export default function Home() {
         {/* Калькулятор ресурсов */}
         <section
           id="calculator"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-blue-900 to-purple-900 text-white border-r border-purple-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-blue-900 to-purple-900 text-white border-r border-purple-700"
         >
           <div className="text-center w-full max-w-md px-4">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 md:mb-8">
@@ -114,7 +114,7 @@ export default function Home() {
         {/* Карта книг */}
         <section
           id="books"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-purple-900 to-pink-900 text-white border-r border-pink-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-purple-900 to-pink-900 text-white border-r border-pink-700"
         >
           <div className="text-center w-full max-w-4xl px-4">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">
@@ -172,7 +172,7 @@ export default function Home() {
         {/* Интерактивные карты */}
         <section
           id="maps"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-pink-900 to-red-900 text-white border-r border-red-700"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-pink-900 to-red-900 text-white border-r border-red-700"
         >
           <div className="text-center w-full max-w-6xl px-4">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 md:mb-8">
@@ -236,7 +236,7 @@ export default function Home() {
         {/* О проекте */}
         <section
           id="end"
-          className="min-w-full h-screen snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-indigo-900 to-blue-800 text-white"
+          className="min-w-full h-dvh snap-start flex flex-col justify-center items-center p-4 sm:p-6 md:p-8 bg-gradient-to-br from-indigo-900 to-blue-800 text-white"
         >
           <div className="text-center max-w-2xl w-full px-4">
             <div className="mb-6 sm:mb-8">

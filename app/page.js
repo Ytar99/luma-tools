@@ -111,15 +111,15 @@ export default function Home() {
             </div>
 
             <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
-              <div className="bg-white/10 rounded-lg p-4">
+              <div className="bg-white/10 rounded-lg px-4 py-2">
                 <h3 className="font-semibold">Книга магии</h3>
                 <p className="text-sm text-pink-200">Лесной храм</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-4">
+              <div className="bg-white/10 rounded-lg px-4 py-2">
                 <h3 className="font-semibold">История королевства</h3>
                 <p className="text-sm text-pink-200">Королевская библиотека</p>
               </div>
-              <div className="bg-white/10 rounded-lg p-4">
+              <div className="bg-white/10 rounded-lg px-4 py-2">
                 <h3 className="font-semibold">Тайны алхимии</h3>
                 <p className="text-sm text-pink-200">Пещера алхимика</p>
               </div>
@@ -136,21 +136,18 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-8">Интерактивные карты</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
-                <div className="text-4xl mb-4">🗺️</div>
-                <h3 className="text-xl font-semibold mb-2">Карта локаций</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-2 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
+                <h3 className="text-xl font-semibold mb-2">🗺️ Карта локаций</h3>
                 <p className="text-red-200">Все ключевые точки мира</p>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
-                <div className="text-4xl mb-4">⛏️</div>
-                <h3 className="text-xl font-semibold mb-2">Карта ресурсов</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-2 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
+                <h3 className="text-xl font-semibold mb-2">⛏️ Карта ресурсов</h3>
                 <p className="text-red-200">Месторождения руд и растений</p>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
-                <div className="text-4xl mb-4">🎯</div>
-                <h3 className="text-xl font-semibold mb-2">Карта квестов</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-2 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
+                <h3 className="text-xl font-semibold mb-2">🎯 Карта квестов</h3>
                 <p className="text-red-200">Расположение заданий и NPC</p>
               </div>
             </div>
@@ -158,11 +155,11 @@ export default function Home() {
             <div className="bg-black/20 rounded-xl p-6 max-w-2xl mx-auto">
               <h3 className="text-2xl font-semibold mb-4">Быстрый доступ</h3>
               <div className="flex flex-wrap justify-center gap-3">
-                <button className="px-4 py-2 bg-blue-500 rounded-lg">Ферма</button>
-                <button className="px-4 py-2 bg-green-500 rounded-lg">Лес</button>
-                <button className="px-4 py-2 bg-gray-500 rounded-lg">Горы</button>
-                <button className="px-4 py-2 bg-yellow-500 rounded-lg">Джунгли</button>
-                <button className="px-4 py-2 bg-red-500 rounded-lg">Пиратская бухта</button>
+                <button className="px-4 py-1 bg-blue-500 rounded-lg">Ферма</button>
+                <button className="px-4 py-1 bg-green-500 rounded-lg">Лес</button>
+                <button className="px-4 py-1 bg-gray-500 rounded-lg">Горы</button>
+                <button className="px-4 py-1 bg-yellow-500 rounded-lg">Джунгли</button>
+                <button className="px-4 py-1 bg-red-500 rounded-lg">Пиратская бухта</button>
               </div>
             </div>
           </div>

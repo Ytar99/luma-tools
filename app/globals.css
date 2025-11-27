@@ -1,7 +1,4 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -46,42 +43,8 @@ body {
   }
 }
 
-/* Кастомные анимации */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+@media (max-width: 640px) {
+  .horizontal-container {
+    -webkit-overflow-scrolling: touch;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out;
-}
-
-.animate-slide-in-right {
-  animation: slideInRight 0.5s ease-out;
-}
-
-/* Стили для градиентов */
-.gradient-primary {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-}
-
-.gradient-secondary {
-  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
 }
